@@ -20,7 +20,7 @@ HTML + CSS + React + Webpack
 
 # Author
 
-Ricardo Rodriguez
+Ricardo Rodriguez R.
 
 Twitter [@R1ck1987] (https://twitter.com/R1ck1987)
 Github [@Richie9000](https://github.com/Richie9000)
