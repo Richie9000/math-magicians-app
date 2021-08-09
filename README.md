@@ -6,7 +6,7 @@
 
 # Build with
 
-HTML + CSS + React + Webpack
+HTML + CSS + React
 
 # Getting started
 
