@@ -4,7 +4,8 @@ import calculate from './logic/calculate';
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+    };
   }
 
   UpdateObj = (event) => {
