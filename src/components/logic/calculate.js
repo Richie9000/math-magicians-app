@@ -25,23 +25,36 @@ export default function calculate(obj, buttonName) {
 
   if (isNumber(buttonName)) {
     if (buttonName === '0' && obj.next === '0') {
-      return {};
+      return {
+        total: obj.total,
+        next: obj.next,
+        operation: obj.operation,
+      };
     }
     // If there is an operation, update next
     if (obj.operation) {
       if (obj.next) {
-        return { next: obj.next + buttonName };
+        return {
+          total: obj.total, 
+          next: obj.next + buttonName,
+          operation: obj.operation, 
+        };
       }
-      return { next: buttonName };
+      return { 
+        next: buttonName,
+        total: obj.total,
+        operation: obj.operation, };
     }
     // If there is no operation, update next and clear the value
     if (obj.next) {
       return {
+        operation: obj.operation,
         next: obj.next + buttonName,
         total: null,
       };
     }
     return {
+      operation: obj.operation,
       next: buttonName,
       total: null,
     };
@@ -50,18 +63,36 @@ export default function calculate(obj, buttonName) {
   if (buttonName === '.') {
     if (obj.next) {
       if (obj.next.includes('.')) {
-        return {};
+        return {
+        total: obj.total,
+        next: obj.next,
+        operation: obj.operation,
+        };
       }
-      return { next: obj.next + '.' };
+      return { 
+        next: obj.next + '.', 
+        total: obj.total,
+        operation: obj.operation,
+      };
     }
     if (obj.operation) {
-      return { next: '0.' };
+      return { 
+        next: '0.',
+        total: obj.total,
+        operation: obj.operation, };
     }
     if (obj.total) {
       if (obj.total.includes('.')) {
-        return {};
+        return {
+          total: obj.total,
+          next: obj.next,
+          operation: obj.operation,
+        };
       }
-      return { total: obj.total + '.' };
+      return { 
+        total: obj.total + '.',
+        next: obj.next,
+        operation: obj.operation,};
     }
     return { total: '0.' };
   }
@@ -75,13 +106,19 @@ export default function calculate(obj, buttonName) {
       };
     } else {
       // '=' with no operation, nothing to do
-      return {};
+      return {
+        total: obj.total,
+        next: obj.next,
+        operation: obj.operation,
+      };
     }
   }
 
   if (buttonName === '+/-') {
     if (obj.next) {
-      return { next: (-1 * parseFloat(obj.next)).toString() };
+      return { next: (-1 * parseFloat(obj.next)).toString(),
+        total: obj.total,
+        operation: obj.operation,};
     }
     if (obj.total) {
       return { total: (-1 * parseFloat(obj.total)).toString() };
