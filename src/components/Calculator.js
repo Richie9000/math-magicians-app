@@ -1,15 +1,10 @@
-/* eslint-disable */ 
 import React from 'react';
 import calculate from './logic/calculate';
 
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      total: null,
-      next: null,
-      operation: null,
-    };
+    this.state = {};
   }
 
   UpdateObj = (event) => {
@@ -21,11 +16,10 @@ class Calculator extends React.Component {
     if (newState.total === null && newState.next === null && newState.operation === null) {
       calculatorDisplay.textContent = '0';
     } else if (newState.next !== null) {
-      calculatorDisplay.textContent = newState.next
+      calculatorDisplay.textContent = newState.next;
     } else if (newState.next === null && newState.total !== null) {
-      calculatorDisplay.textContent = newState.total
+      calculatorDisplay.textContent = newState.total;
     }
-    console.log(newState);
   }
 
   render() {
@@ -54,10 +48,10 @@ class Calculator extends React.Component {
             </div>
           </div>
           <div className="operator-keys">
-            <button className="calculator-key key-add" value="+" type="button" onClick={this.UpdateObj}>+</button>
-            <button className="calculator-key key-substract" value="-" type="button" onClick={this.UpdateObj}>-</button>
             <button className="calculator-key key-divide" value="÷" type="button" onClick={this.UpdateObj}>÷</button>
             <button className="calculator-key key-multiply" value="x" type="button" onClick={this.UpdateObj}>*</button>
+            <button className="calculator-key key-substract" value="-" type="button" onClick={this.UpdateObj}>-</button>
+            <button className="calculator-key key-add" value="+" type="button" onClick={this.UpdateObj}>+</button>
             <button className="calculator-key key-equals" value="=" type="button" onClick={this.UpdateObj}>=</button>
           </div>
         </div>
