@@ -1,5 +1,6 @@
 import React from 'react';
 import calculate from './logic/calculate';
+import operate from './logic/operator'; // eslint-disable-line no-unused-vars
 
 class Calculator extends React.Component {
   constructor(props) {
