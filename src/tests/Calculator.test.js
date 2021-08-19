@@ -13,4 +13,10 @@ describe('App', () => {
     render(<Calculator />);
     expect(screen.getByText('=')).toBeInTheDocument();
   });
+
+  test('Calculator snapshot test', () => {
+    const myrender = render(<Calculator />);
+    expect(myrender).toMatchSnapshot();
+  });
+
 });
