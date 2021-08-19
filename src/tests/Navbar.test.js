@@ -19,5 +19,4 @@ describe('App', () => {
     const myrender = render(<BrowserRouter><Navbar /></BrowserRouter>);
     expect(myrender).toMatchSnapshot();
   });
-
 });

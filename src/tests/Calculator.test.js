@@ -18,5 +18,4 @@ describe('App', () => {
     const myrender = render(<Calculator />);
     expect(myrender).toMatchSnapshot();
   });
-
 });
