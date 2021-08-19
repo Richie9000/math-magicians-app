@@ -1,0 +1,410 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Calculator snapshot test 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="calc-container"
+      >
+        <div
+          class="calc-title"
+        >
+          <p>
+            Let's do some  math
+          </p>
+        </div>
+        <div
+          class="calculator"
+        >
+          <div
+            class="calculator-display"
+          >
+            0
+          </div>
+          <div
+            class="calculator-keypad"
+          >
+            <div
+              class="input-keys"
+            >
+              <div
+                class="function-keys"
+              >
+                <button
+                  class="calculator-key key-clear"
+                  type="button"
+                  value="AC"
+                >
+                  AC
+                </button>
+                <button
+                  class="calculator-key key-sign"
+                  type="button"
+                  value="+/-"
+                >
+                  +/-
+                </button>
+                <button
+                  class="calculator-key key-percent"
+                  type="button"
+                  value="%"
+                >
+                  %
+                </button>
+              </div>
+              <div
+                class="digit-keys"
+              >
+                <button
+                  class="calculator-key key-0"
+                  type="button"
+                  value="0"
+                >
+                  0
+                </button>
+                <button
+                  class="calculator-key key-dot"
+                  type="button"
+                  value="."
+                >
+                  ●
+                </button>
+                <button
+                  class="calculator-key key-1"
+                  type="button"
+                  value="1"
+                >
+                  1
+                </button>
+                <button
+                  class="calculator-key key-2"
+                  type="button"
+                  value="2"
+                >
+                  2
+                </button>
+                <button
+                  class="calculator-key key-3"
+                  type="button"
+                  value="3"
+                >
+                  3
+                </button>
+                <button
+                  class="calculator-key key-4"
+                  type="button"
+                  value="4"
+                >
+                  4
+                </button>
+                <button
+                  class="calculator-key key-5"
+                  type="button"
+                  value="5"
+                >
+                  5
+                </button>
+                <button
+                  class="calculator-key key-6"
+                  type="button"
+                  value="6"
+                >
+                  6
+                </button>
+                <button
+                  class="calculator-key key-7"
+                  type="button"
+                  value="7"
+                >
+                  7
+                </button>
+                <button
+                  class="calculator-key key-8"
+                  type="button"
+                  value="8"
+                >
+                  8
+                </button>
+                <button
+                  class="calculator-key key-9"
+                  type="button"
+                  value="9"
+                >
+                  9
+                </button>
+              </div>
+            </div>
+            <div
+              class="operator-keys"
+            >
+              <button
+                class="calculator-key key-divide"
+                type="button"
+                value="÷"
+              >
+                ÷
+              </button>
+              <button
+                class="calculator-key key-multiply"
+                type="button"
+                value="x"
+              >
+                *
+              </button>
+              <button
+                class="calculator-key key-substract"
+                type="button"
+                value="-"
+              >
+                -
+              </button>
+              <button
+                class="calculator-key key-add"
+                type="button"
+                value="+"
+              >
+                +
+              </button>
+              <button
+                class="calculator-key key-equals"
+                type="button"
+                value="="
+              >
+                =
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="calc-container"
+    >
+      <div
+        class="calc-title"
+      >
+        <p>
+          Let's do some  math
+        </p>
+      </div>
+      <div
+        class="calculator"
+      >
+        <div
+          class="calculator-display"
+        >
+          0
+        </div>
+        <div
+          class="calculator-keypad"
+        >
+          <div
+            class="input-keys"
+          >
+            <div
+              class="function-keys"
+            >
+              <button
+                class="calculator-key key-clear"
+                type="button"
+                value="AC"
+              >
+                AC
+              </button>
+              <button
+                class="calculator-key key-sign"
+                type="button"
+                value="+/-"
+              >
+                +/-
+              </button>
+              <button
+                class="calculator-key key-percent"
+                type="button"
+                value="%"
+              >
+                %
+              </button>
+            </div>
+            <div
+              class="digit-keys"
+            >
+              <button
+                class="calculator-key key-0"
+                type="button"
+                value="0"
+              >
+                0
+              </button>
+              <button
+                class="calculator-key key-dot"
+                type="button"
+                value="."
+              >
+                ●
+              </button>
+              <button
+                class="calculator-key key-1"
+                type="button"
+                value="1"
+              >
+                1
+              </button>
+              <button
+                class="calculator-key key-2"
+                type="button"
+                value="2"
+              >
+                2
+              </button>
+              <button
+                class="calculator-key key-3"
+                type="button"
+                value="3"
+              >
+                3
+              </button>
+              <button
+                class="calculator-key key-4"
+                type="button"
+                value="4"
+              >
+                4
+              </button>
+              <button
+                class="calculator-key key-5"
+                type="button"
+                value="5"
+              >
+                5
+              </button>
+              <button
+                class="calculator-key key-6"
+                type="button"
+                value="6"
+              >
+                6
+              </button>
+              <button
+                class="calculator-key key-7"
+                type="button"
+                value="7"
+              >
+                7
+              </button>
+              <button
+                class="calculator-key key-8"
+                type="button"
+                value="8"
+              >
+                8
+              </button>
+              <button
+                class="calculator-key key-9"
+                type="button"
+                value="9"
+              >
+                9
+              </button>
+            </div>
+          </div>
+          <div
+            class="operator-keys"
+          >
+            <button
+              class="calculator-key key-divide"
+              type="button"
+              value="÷"
+            >
+              ÷
+            </button>
+            <button
+              class="calculator-key key-multiply"
+              type="button"
+              value="x"
+            >
+              *
+            </button>
+            <button
+              class="calculator-key key-substract"
+              type="button"
+              value="-"
+            >
+              -
+            </button>
+            <button
+              class="calculator-key key-add"
+              type="button"
+              value="+"
+            >
+              +
+            </button>
+            <button
+              class="calculator-key key-equals"
+              type="button"
+              value="="
+            >
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
