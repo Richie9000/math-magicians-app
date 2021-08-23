@@ -42,6 +42,11 @@
    ```sh
    npm run watch
    ```
+   
+### Deploy
+
+Netlify - https://dazzling-ramanujan-5c7372.netlify.app/
+Heroku - https://math-magicians-app-heroku.herokuapp.com
 
 
 
